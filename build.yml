@@ -20,4 +20,5 @@ jobs:
       scope: "@sardikB"
    - run: npm publish
      env:
-      NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      GITHUB_TOKEN: "ghfgh"
+      NODE_AUTH_TOKEN: "ghfh"
