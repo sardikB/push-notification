@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@sardikB"
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "dist"
