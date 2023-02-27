@@ -1,0 +1,29 @@
+{
+  "name": "@sardik/push-notification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@sardikB"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sardik Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^9.3.9",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.5"
+  }
+}
