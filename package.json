@@ -1,10 +1,10 @@
 {
-  "name": "@sardik/push-notification",
+  "name": "sardik-push-notification",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@sardikB"
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "dist"
